@@ -1,0 +1,18 @@
+ul li  {
+  color: aqua;
+}
+.wrapper{
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+          "head head "
+          "left_men  main_cont ";
+}
+
+.contain{
+  grid-area: main_cont;
+  margin-left: 10px;
+  background-color: lightgreen;
+}
+

@@ -1,0 +1,11 @@
+.active{
+    font-weight: bold;
+}
+.selectedPage{
+    font-weight: bold;
+    color: red;
+}
+.noselectedPage{
+
+    color: black;
+}

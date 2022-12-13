@@ -1,0 +1,71 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 6fr 4fr;
+    background-color: #fff;
+}
+.button_wrapper{
+    margin: auto;
+    text-align: center;
+}
+.button{
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.useritem{
+    display: grid;
+    grid-template-columns: 1fr 6fr ;
+}
+.item{
+    border: 1px solid #000000;
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 2fr;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    grid-template-areas:
+            "one two "
+            "three  foor ";
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.usersPhoto{
+    border-radius: 60px;
+    margin: auto;
+    height: 60px;
+    width: 60px;
+}
+.users{
+    display: grid;
+    margin: auto;
+}
+.users button{
+    text-align: center;
+    margin: auto;
+}
+.one{
+    grid-area: one;
+    margin-left: 10px;
+}
+.two{
+    grid-area: two;
+    margin-left: 10px;
+}
+.three{
+    grid-area: three;
+    margin-left: 10px;
+}
+.foor{
+    grid-area: foor;
+    margin-left: 10px;
+}
+
+.loader{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+}

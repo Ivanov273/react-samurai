@@ -1,0 +1,7 @@
+.formControls >*{
+    border: 1px solid red
+}
+.error{
+    display: block;
+    color: red
+}

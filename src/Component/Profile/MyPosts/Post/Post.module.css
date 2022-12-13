@@ -1,0 +1,30 @@
+.item{
+    display: grid;
+    position: relative;
+    grid-template-rows:  1fr;
+    grid-template-columns: 1fr 1fr 1fr 9fr;
+    margin: 10px;
+    grid-template-areas:
+            " photo text"
+            " like text ";
+
+}
+.user_photo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: auto;
+
+}
+.user_photo{
+    margin: auto;
+    grid-area:  photo;
+}
+.item_text{
+    margin: auto;
+    grid-area: text;
+}
+.like{
+    grid-area: like;
+    margin: auto;
+}

@@ -1,0 +1,22 @@
+.mainNav{
+    margin-top: 200px;
+}
+.main{
+    grid-area: left_men;
+    background-color: darkgoldenrod;
+    height: 100vh;
+    display: grid;
+    padding-left: 20px;
+    text-align: center;
+}
+.item {
+    display: grid;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    color: #ffffff;
+    text-decoration: none;
+}
+.active {
+    color: gold;
+}
